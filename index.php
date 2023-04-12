@@ -4,7 +4,7 @@
   <title>Login Page</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="./public/
+  <link rel="stylesheet" href="./public/css/main.css">
   <style>
   
   </style>
@@ -15,21 +15,23 @@
       <div class="col-md-6">
         <div class="card">
           <div class="card-header">
-            Login
+            <h2>User Login</h2>
           </div>
+
           <div class="card-body">
-            <form>
+            <form method="POST" action="">
               <div class="form-group">
                 <label for="username">Username</label>
-                <input type="text" class="form-control" id="username">
+                <input type="text" name="username" class="form-control" id="username">
               </div>
               <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" id="password">
+                <input type="password" name="password" class="form-control" id="password">
               </div>
-              <button type="submit" class="btn btn-primary btn-block">Login</button>
+              <button type="submit" name="loginBTN" class="btn btn-primary btn-block">Login</button>
             </form>
           </div>
+
         </div>
       </div>
     </div>
